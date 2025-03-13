@@ -21,8 +21,8 @@ struct ContentView: View {
             CodeViewer(
                 content: $json,
                 mode: .json,
-                darkTheme: .solarized_dark,
-                lightTheme: .solarized_light,
+                darkTheme: .github_dark,
+                lightTheme: .github,
                 fontSize: 13
             ) { text in
                 print("new text: \(text)")
